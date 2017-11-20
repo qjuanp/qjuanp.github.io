@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Juan P. (@qjuanp)
-email: qjuanp@gmail.com
+email: me@qjuanp.net
 description: >- # this means to ignore newlines until "baseurl:"
   Developer Javascript and C#
   Enterprise Architect Apprentince
