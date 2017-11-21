@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Juan
+title: me
 permalink: /me/
+comments: false
 ---
 
 I'm Juan, for now contact me -> me@qjuanp.net
