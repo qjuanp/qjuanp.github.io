@@ -2,7 +2,7 @@
 layout: post
 title: "Reactive en C# - MDE.NET"
 categories: [community]
-tags: [reactive]
+tags: [reactive spanish]
 ---
 
 Acá dejo los **[slides](https://slides.com/qjuanp/rx-csharp-mdenet)** que usé el pasado [29 de Noviembre en el meetup de MDE.NET](https://www.meetup.com/es-ES/MDE-NET/events/256625082/)
