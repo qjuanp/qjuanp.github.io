@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Update project netcore version"
-categories: dotnet dotnet-core
+categories: [notes]
+tags: [dotnet dotnet-core]
 ---
 
 # Update project netcore version
