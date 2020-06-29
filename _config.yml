@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Juan P.
-email: me@qjuanp.net
+email: hi@qjuanp.dev
 description: >- # this means to ignore newlines until "baseurl:"
   ♥️ code
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://qjuanp.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://qjuanp.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: qjuanp
 github_username:  qjuanp
 
@@ -30,9 +30,6 @@ plugins:
 
 # Blog settings
 permalink: /post/:title
-
-disqus:
-  shortname: http-qjuanp-net
 
 google_analytics: UA-15698475-1
 
