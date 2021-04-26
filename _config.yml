@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
 
 # Blog settings
-permalink: /blog/:year/:month/:day/:title
+permalink: /post/:title
 
 disqus:
   shortname: http-qjuanp-net
