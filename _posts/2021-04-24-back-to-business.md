@@ -4,7 +4,7 @@ title: "Back to business"
 categories: [meta]
 tags: [technical writting]
 ---
-# Hi there!
+## Hi there!
 
 This is a note for my future-self...
 
@@ -45,6 +45,9 @@ Even with a couple of hours of difference, a well written technical document or 
 ## In other words...
 ...from now on you will see a bunch of posts that are notes for my future self, hopefully it will be something useful for you too, that'd be even better! but, I will try to flight low and make this useful for me first.
 
-[Suggest a correction](https://github.com/qjuanp/qjuanp.github.io/issues/new?assignees=qjuanp&labels=review&template=post-feedback.md&title=%5Bpost+feedback%5D)
+---
+
+[👉 make a suggestion](https://github.com/qjuanp/qjuanp.github.io/issues/new?assignees=qjuanp&labels=review&template=post-feedback.md&title=%5Bpost+feedback%5D)
 > If you want to help me with this post redaction don't hesitate on create an issue in the GitHub repo where it's hosted, use this link to get you there, and thanks!
 
+---
