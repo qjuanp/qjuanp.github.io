@@ -1,6 +1,6 @@
 ---
-layout:post
-title:personal questions around cs
+layout: post
+title: "personal questions around cs"
 ---
 # Personal questions around CS
 This is a personal list around concepts, techniques, tools, etc that I have (yes, 10 years in this area and I’m still learning)
