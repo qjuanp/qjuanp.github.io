@@ -13,11 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Juan P. (@qjuanp)
+title: Juan P.
 email: me@qjuanp.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Developer Javascript and C#
-  Enterprise Architect Apprentince
+  ♥️ code
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: qjuanp
@@ -31,6 +30,11 @@ plugins:
 
 # Blog settings
 permalink: /blog/:year/:month/:day/:title
+
+disqus:
+  shortname: http-qjuanp-net
+
+google_analytics: UA-15698475-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
