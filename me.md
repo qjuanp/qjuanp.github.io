@@ -5,5 +5,4 @@ permalink: /me/
 comments: false
 ---
 
-I'm Juan, for now contact me -> hi@qjuanp.dev
-
+I'm Juan, for now contact me directly on -> hi@qjuanp.dev
