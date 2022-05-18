@@ -1,12 +1,22 @@
+---
+layout: post
+title: "Podcast recommendados"
+categories: [bookmarks]
+tags: [podcast]
+---
+
 # Podcasts recomendados
 
 He aquí la lista no pedida de podcasts que se me han atravesado y me han gustado.
 
-- Estupido nerd
-	- Spotify: https://open.spotify.com/show/6d91Ne6hghZ1UMs5X1SQFN?si=r6N780z-QGWuMRsM8T5gMQ
-	- Categoría: Cine/Series
+| Podcast | Link | Categoría | Reseña |
+|---|---|---|---|
+| Estupido nerd | [Spotify](https://open.spotify.com/show/6d91Ne6hghZ1UMs5X1SQFN?si=r6N780z-QGWuMRsM8T5gMQ) | Cine/Series | Una perspectiva fresca de series,cine y cosas ñoñas |
+| Hoy el tema es | [Spotify]( https://open.spotify.com/show/0TOFi85sHxRVoyIPYld2a4?si=X_8AiwmeQBmEu85Cz-TDxA) |           |
+
+
 - Hoy el tema es
-	- Spotify: https://open.spotify.com/show/0TOFi85sHxRVoyIPYld2a4?si=X_8AiwmeQBmEu85Cz-TDxA
+	- 
 	- Categoría: Curiosidades
 - Sospechosamente light
 	- Spotify: https://open.spotify.com/show/1aYPBvV7AIilRkyORTD1X3?si=IuOmK9A7Rdy5iOjaFfOObg

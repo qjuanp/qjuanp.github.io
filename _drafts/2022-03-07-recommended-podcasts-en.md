@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Recommended podcasts"
+categories: [bookmarks]
+tags: [podcast]
+---
+
 # Recommended podcasts
 
 Here it is a non-requested podcast lists that I’ve found and liked them.
