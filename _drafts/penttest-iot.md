@@ -24,7 +24,31 @@ graph td
 
 ## Tools
 
+zmap -> 
+- scan public internet, mostly ports 80/443
+- discovery http servers
+
 ## Running experiment
+
+Host discovery:
+
+List wich Ips will be scanning, not proper scan run:
+nmap <IPS> -sL
+
+List of host, FYI it doesn't discover all the hosts
+nmap <IPs> -sn 
+
+ARP ping scan technique
+nmap -sP -PR 192.168.1.1/24 
+
+Looking in local network for HTPT servers
+zmap 192.168.0.0/24 -p 80 -o test.csv
+
+Looking in local network for HTTPS servers
+zmap 192.168.0.0/24 -p 443 -o test-https.csv
+
+
+nmap -A -> guessing OS
 
 ## Processing data
 
