@@ -26,29 +26,39 @@ graph td
 
 zmap -> 
 - scan public internet, mostly ports 80/443
-- discovery http servers
+- discovery http servers or specific services, it should be known the ports beforehand
+
+
+nmap
+- lacks of accuracy to identify devices
+
+
 
 ## Running experiment
 
 Host discovery:
 
-List wich Ips will be scanning, not proper scan run:
-nmap <IPS> -sL
+- List wich Ips will be scanning, not proper scan run:
 
-List of host, FYI it doesn't discover all the hosts
-nmap <IPs> -sn 
+`nmap <IPS> -sL`
 
-ARP ping scan technique
-nmap -sP -PR 192.168.1.1/24 
+- List of host, FYI it doesn't discover all the hosts
 
-Looking in local network for HTPT servers
-zmap 192.168.0.0/24 -p 80 -o test.csv
+`nmap <IPs> -sn` 
+
+- ARP ping scan technique
+
+`nmap -sP -PR 192.168.1.1/24`
+
+Looking in local network for HTTP servers
+
+`zmap 192.168.0.0/24 -p 80 -o test.csv`
 
 Looking in local network for HTTPS servers
-zmap 192.168.0.0/24 -p 443 -o test-https.csv
 
+`zmap 192.168.0.0/24 -p 443 -o test-https.csv`
 
-nmap -A -> guessing OS
+`nmap -A` -> guessing OS
 
 ## Processing data
 
