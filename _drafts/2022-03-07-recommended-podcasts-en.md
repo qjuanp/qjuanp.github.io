@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Recommended podcasts"
-categories: [bookmarks]
+categories: bookmarks
 tags: [podcast]
 ---
 
-Here it is a non-requested podcast lists that I’ve found and liked them.
+Here it is a non-requested podcast lists around Software Development.
 
 | Podcast | Link | Category | Review |
 |---|---|---|---|

@@ -2,7 +2,7 @@
 layout: post
 title: "Podcast recommendados"
 categories: bookmarks
-tags: [podcast]
+tags: [podcasts]
 ---
 
 He aquí la lista ~~**no pedida**~~ definitiva de podcast para hacer oficio en la casa.
