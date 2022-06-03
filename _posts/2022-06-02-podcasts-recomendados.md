@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Podcast recommendados"
+title: "Podcast recomendados"
 categories: bookmarks
 tags: [podcasts]
 ---
