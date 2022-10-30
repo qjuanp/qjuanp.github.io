@@ -1,16 +1,37 @@
-title: Juan P.
-email: hi@qjuanp.dev
-description: >-
+title: log.info
+description: >
   ♥️ code
-baseurl: ""
 url: "https://qjuanp.dev"
-twitter_username: qjuanp
-github_username:  qjuanp
+
+author:
+  name: jp
+  email: hi@qjuanp.dev
+
+minima:
+  skin: auto
+  date_format: "%Y-%m-%d"
+  social_links:
+    twitter: qjuanp
+    github: qjuanp
+    stackoverflow: "1176772"
+    instagram: qjuanp
+    linkedin: qjuanp
+
+    mastodon:
+     - username: qjuanp
+       instance: mastodon.social
+
 
 markdown: kramdown
-theme: minima
+
+# set up remote_theme
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+remote_theme: jekyll/minima@7f4b79da7e72b0b564b769ffd2ee4809bb387f0c
 
 permalink: /post/:title
 
