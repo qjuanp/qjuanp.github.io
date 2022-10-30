@@ -1,8 +1,8 @@
 ---
+permalink: /contact/mst
 layout: fordward
 target: https://mastodon.social/@qjuanp
-time: 10
-targettitle: "@qjuanp@mastodon.social"
-targetname: "@qjuanp@mastodon.social"
+time: 1
+targettitle: "handle @qjuanp@mastodon.social"
 message: Follow me @ mastodon.social
 ---

@@ -1,0 +1,6 @@
+{% if page.copyright %}
+<meta name="copyright" content="{{ page.copyright }}">
+{% elsif site.copyright %}
+<meta name="copyright" content="{{ site.copyright }}">
+{% endif %}
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "sitemap.xml" | absolute_url }}" />

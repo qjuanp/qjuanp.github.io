@@ -5,8 +5,6 @@ categories: [notes]
 tags: [development, configuration]
 ---
 
-# Dev machine configuration
-
 Dear reader, this is just a bunch of notes to configure my dev machinem, it's an snapshot to configure my new macbook pro m1. enjoy!
 
 Software:
