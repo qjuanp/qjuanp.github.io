@@ -1,10 +1,4 @@
 
----
-layout: post
-title: "Telemetry with Prometheus"
-category: devops
-tags: [metrics, telemetry, architecture, prometheus]
----
 
 # Intro
 
