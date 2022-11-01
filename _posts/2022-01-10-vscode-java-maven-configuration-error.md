@@ -5,14 +5,14 @@ categories: [notes]
 tags: [development, configuration, java, maven]
 ---
 
-There is no day that I not face a "funny" error developing in Java, saying that, it's not my intention generate drama nor a new whole discussion Java vs The world.... this error is merly product of my ignorance in java and the composability you could find in this development ecosystem (coff coff Msft!).
+There is no day that I not face a “funny” error developing in Java, saying that, it’s not my intention generate drama nor a new whole discussion Java vs The world…. this error is merely product of my ignorance in java and the composability you could find in this development ecosystem (coff coff Msft!).
 
-Joke aside, I found myself in a "particular" scenario:
+Joke aside, I found myself in a “particular” scenario:
 
 > When I run the cli command `mvn clean compile` project simply compile perfectly!, even the tests were running without a problem. But, when I opened up the project in a VSCode, the compiler went crazy and it was just saying that the project has a ton or compilation errors, errors like:
 
-- "Failed to read artifact descriptor for..."
-- "Missing artifact..."
+- “Failed to read artifact descriptor for…”
+- “Missing artifact…”
 
 VSCode-Java uses under the hood the same tools, java and maven, to verify the sources and bring us information during development, so, how can be possible get two different results if, under the hood, are basically the same tooling?
 
