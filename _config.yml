@@ -23,7 +23,7 @@ minima:
 
     mastodon:
      - username: qjuanp
-       instance: mastodon.social
+       instance: hachyderm.io
 
 
 markdown: kramdown
