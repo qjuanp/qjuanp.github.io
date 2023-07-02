@@ -1,0 +1,10 @@
+---
+# Front matter comment to ensure Jekyll properly reads the file
+---
+
+@charset "utf-8";
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize",
+  "projects";

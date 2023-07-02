@@ -25,6 +25,9 @@ minima:
      - username: qjuanp
        instance: mastodon.social
 
+sass:
+    sass_dir: _sass
+    # style: compressed
 
 markdown: kramdown
 

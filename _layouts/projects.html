@@ -12,16 +12,17 @@
         <div class="wrapper">
             <h1>{{ page.title }}</h1>
             {{content}}
-            <ul>
-                {% for projects_hash in site.data.projects %}
-                {% assign project = projects_hash[1] %}
-                <li>
-                    {{ project.name }}
-                    {{ project.description }}
-                </li>
+            
+            <div class="projects">
+            {% for projects_hash in site.data.projects %}
+            {% assign project = projects_hash[1] %}
+                <div class="project-card">
+                    <h2><a href="{{ project.url }}" target="_blank">{{ project.name }}</a></h2>
+                    <p>{{ project.description }}</p>
+                    <p><em>{{ project.company.name }}</em></p>
+                </div>
                 {% endfor %}
-            </ul>
-
+            </div>
         </div>
     </main>
 

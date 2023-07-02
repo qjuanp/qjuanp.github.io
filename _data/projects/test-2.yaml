@@ -7,6 +7,6 @@ skills:
   - name: C#
     icon: url-icon
 company:
-  - name: company
-    url: https//company.com
-    icon: company-logo
+  name: company
+  url: https//company.com
+  icon: company-logo

@@ -1,0 +1,28 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+
+    .project-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px;
+        width: calc(33.33% - 20px);
+        box-sizing: border-box;
+        background-color: #f9f9f9;
+
+        h2 {
+            margin-top: 0;
+            border: 1px solid red;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+    }
+}
