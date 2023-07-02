@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    {%- include head.html -%}
+    <title>{{ page.title }}</title>
+</head>
+
+<body>
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <h1>{{ page.title }}</h1>
+            {{content}}
+            <ul>
+                {% for projects_hash in site.data.projects %}
+                {% assign project = projects_hash[1] %}
+                <li>
+                    {{ project.name }}
+                    {{ project.description }}
+                </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </main>
+
+    {%- include footer.html -%}
+
+</body>
+
+</html>

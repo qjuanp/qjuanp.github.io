@@ -1,8 +1,9 @@
 ---
 layout: page
-title: find me on
+title: "find me on"
 permalink: /links/
 comments: false
+hidden: true
 ---
 
 Remove links section down below
