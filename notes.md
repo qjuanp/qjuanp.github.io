@@ -1,5 +1,5 @@
 ---
 layout: home
-title: log
-permalink: /log/
+title: notes
+permalink: /notes/
 ---

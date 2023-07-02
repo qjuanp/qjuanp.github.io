@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 ---
 
 Header photo -> try to make it all wide long

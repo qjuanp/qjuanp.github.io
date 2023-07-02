@@ -14,16 +14,13 @@ minima:
   skin: auto
   date_format: "%b %-d, %Y"
   social_links:
-    twitter: qjuanp
-    github: qjuanp
-    stackoverflow: "1176772"
-    instagram: qjuanp
-    linkedin: qjuanp
-    devto: qjuanp
-
-    mastodon:
-     - username: qjuanp
-       instance: mastodon.social
+    - { platform: mastodon,       user_url: "https://hachyderm.io/@qjuanp" }
+    - { platform: github,         user_url: "https://github.com/qjuanp" }
+    - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1176772/qjuanp" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/qjuanp" }
+    - { platform: devto,          user_url: "https://dev.to/qjuanp" }
+    - { platform: instagram,      user_url: "https://www.instagram.com/qjuanp" }
+    - { platform: twitter,        user_url: "https://twitter.com/qjuanp" }
 
 sass:
     sass_dir: _sass
@@ -38,7 +35,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-remote_theme: jekyll/minima@7f4b79da7e72b0b564b769ffd2ee4809bb387f0c
+# remote_theme: jekyll/minima@7f4b79da7e72b0b564b769ffd2ee4809bb387f0c
+remote_theme: jekyll/minima@2863624b903b17f838d6ce8d2f77900fa9d3c864
 
 defaults:
   -
@@ -55,5 +53,5 @@ exclude:
   - "**/*Readme.md"
 
 header_pages:
-  - log.md
+  - notes.md
   - projects.md
