@@ -1,4 +1,4 @@
-title: log.info("...")
+title: Juan P.
 description: >
   👨🏻‍💻 coding affairs public log
 url: "https://qjuanp.dev"
@@ -50,3 +50,7 @@ google_analytics:
 
 exclude:
   - "**/*Readme.md"
+
+header_pages:
+  - log.md
+  - projects.md
