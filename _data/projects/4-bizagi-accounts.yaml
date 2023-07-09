@@ -1,13 +1,16 @@
+active: 'TRUE'
 company:
-  name: ''
-  url: ''
+  name: Bizagi
+  url: https://bizagi.com
 description: Design and development components and services for Bizagi Accounts (over
   500K registered accounts) providing Single Sign On authentication across all service
   in Bizagi.com portal (forum|support|learning|etc)|including the new services in
   the cloud like Bizagi Modeler Collaboration.
 endDate: ''
+license: private
 name: Bizagi Accounts
 skills:
-- ''
+- c#
+- azure
 startDate: ''
 url: https://accounts.bizagi.com/?l=en

@@ -14,15 +14,31 @@
 
         .project-tags {
             margin-top: 10px;
+            flex-wrap: wrap;
+            justify-content: space-between;
 
             span {
                 display: inline-block;
                 margin-right: 5px;
-                padding: 5px 10px;
+                margin-bottom: 5px;
+                padding: 5px 5px;
                 background-color: #ccc;
-                border-radius: 5px;
-                font-size: 14px;
+                border-radius: 10px;
+                font-size: 12px;
                 color: #333;
+            }
+        }
+
+        .project-title {
+            img {
+                float: left;
+                width: 20px;
+                padding: 3px;
+            }
+
+            h2 {
+                position: relative;
+                margin-top: 0;
             }
         }
 
@@ -31,11 +47,6 @@
             height: auto;
             margin-bottom: 10px;
             border-radius: 5px;
-        }
-
-        h2 {
-            margin-top: 0;
-            font-size: 20px;
         }
 
         p {

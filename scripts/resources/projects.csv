@@ -1,14 +1,20 @@
-name,url,description,start date,end date,skills,company,company url,company icon
-SIGOB (PNUD) for PDI-UTP,https://repositorio.utp.edu.co/items/b743e34e-447b-4a0d-afa0-ce46a8ed6d50/full,SIGOB (PNUD System) Goals and outcomes module adaptation for project management in accordance to the 2009-2019 UTP strategic plan.,2008-06-01,2009-10-1,asp.net|microsoft sql,Technologica Unversity of Pereira,https://www.utp.edu.co,
-Aranda MOBILE,https://arandasoft.com/en/productos/enterprise-mobility-management/,Mobile application (Android) for tracking device location and device inventory and management,2012-02-01,2012-03-01,java|android|rest service|geolocation,Aranda Software,,
-Aranda DASHBOARD,https://arandasoft.com/en/productos/query-manager/,"Application oriented to offer business KPIs in ""real-time"" based on OLTP data of Aranda Products. ",2012-03-01,2012-09-01,asp.net|,Aranda Software,,
-Aranda FIELD SERVICE,https://arandasoft.com/en/productos/field-service/,Field technician management product allowing field operation visualization|specialists locations and movement|and manual/automatic job scheduling considering different evaluation criteria such as specialist's distance|skills and service agreements level.,2012-09-01,2014-08-01,java|android|rest service|geolocation|c#|software design,,,
-Bizagi Accounts,https://accounts.bizagi.com/?l=en,Design and development components and services for Bizagi Accounts (over 500K registered accounts) providing Single Sign On authentication across all service in Bizagi.com portal (forum|support|learning|etc)|including the new services in the cloud like Bizagi Modeler Collaboration.,,,,,,
-Bizagi Modeler Cloud,https://model.bizagi.com/,"Design and development components and services required to bring ""collaboration experience"" on Bizagi Modeler",,,,,,
-Bizagi Engine Could,,,,,,,,
-Marketing Portals,https://www.quest.com/,Implementation of new marketing processes through its public portals and internal tools used for identify new prospects and bring information to marketing and sales areas.,,,,Quest,,
-,,,,,,Deloitte,,
-,,,,,,PwC,,
-,,,,,,YoungLiving,,
-Codified Controls - PoC,,,,,,Citi,,
-Identity Factory - PoC,,,,,,Citi,,
+name,url,description,start date,end date,skills,company,company url,license,active
+SIGOB (PNUD) for PDI-UTP,https://repositorio.utp.edu.co/items/b743e34e-447b-4a0d-afa0-ce46a8ed6d50/full,SIGOB (PNUD System) Goals and outcomes module adaptation for project management in accordance to the 2009-2019 UTP strategic plan.,2008-06-01,2009-10-01,asp.net|microsoft sql,Technologica Unversity of Pereira,https://www.utp.edu.co,private,TRUE
+Aranda MOBILE,https://arandasoft.com/en/productos/enterprise-mobility-management/,Mobile application (Android) for tracking device location and device inventory and management,2012-02-01,2012-03-01,java|android|rest service|geolocation,Aranda Software,https://www.utp.edu.co,private,TRUE
+Aranda DASHBOARD,https://arandasoft.com/en/productos/query-manager/,"Application oriented to offer business KPIs in ""real-time"" based on OLTP data of Aranda Products. ",2012-03-01,2012-09-01,asp.net,Aranda Software,https://www.utp.edu.co,private,TRUE
+Aranda FIELD SERVICE,https://arandasoft.com/en/productos/field-service/,Field technician management product allowing field operation visualization|specialists locations and movement|and manual/automatic job scheduling considering different evaluation criteria such as specialist's distance|skills and service agreements level.,2012-09-01,2014-08-01,java|android|rest service|geolocation|c#|software design,Aranda Software,https://www.utp.edu.co,private,TRUE
+Bizagi Accounts,https://accounts.bizagi.com/?l=en,Design and development components and services for Bizagi Accounts (over 500K registered accounts) providing Single Sign On authentication across all service in Bizagi.com portal (forum|support|learning|etc)|including the new services in the cloud like Bizagi Modeler Collaboration.,,,c#|azure,Bizagi,https://bizagi.com,private,TRUE
+Bizagi Modeler Cloud,https://model.bizagi.com/,"Design and development components and services required to bring ""collaboration experience"" on Bizagi Modeler",,,c#|azure,Bizagi,https://bizagi.com,private,TRUE
+Bizagi Engine Could,,,,,c#|azure,Bizagi,https://bizagi.com,private,TRUE
+Marketing Portals,https://www.quest.com/,Implementation of new marketing processes through its public portals and internal tools used for identify new prospects and bring information to marketing and sales areas.,,,c#,Consultant for Quest,https://quest.com,private,TRUE
+SMS masive sender,,,,,c#|twilio,Consultant for Deloitte,https://deloitte.com,private,TRUE
+Taxes tool,,,,,reactjs|c#,Consultant for PwC,https://pwc.com,private,TRUE
+Payouts process revamping,,,,,oracle,Consultant for YoungLiving,https://youngliving.com,private,TRUE
+Codified Controls - PoC,,PoC to enable policy evaluation in runtime evaluating requests send to a service using nginx (js module) and extending opa,,,go|nginx|kubernetes,Citi,https://www.citi.com,private,TRUE
+Identity Factory - PoC,,Identity generation based on object metadata,,,mongo|java|kubernetes,Citi,https://www.citi.com,private,TRUE
+qjuanp.dev site,https://qjuanp.dev,Extended jekyll site to include projects and short description about myself. Used python scripts to genrate content.,,,jekyll|scss|github actions|python,,,cc-by-sa-4.0,TRUE
+trequest,https://github.com/qjuanp/trequest,CLI to execute HTTP requests stored in yaml/json files,,,go,,,,FALSE
+Day lenght,https://github.com/qjuanp/day-length,html/css experimentaiton showing the day lenght throguh the year in different regions,,,css|geolocation,,,,FALSE
+Habit tracker,https://github.com/qjuanp/habit-tracker,habit tracker to avoid paying for simple tool,,,reactjs,,,,FALSE
+Cal CLI,https://github.com/qjuanp/c3jpo.cal.cli,cli tool to manage calendar,,,c#,,,,FALSE
+Game of life in Go,https://github.com/qjuanp/gameoflife-go,Game of life implementation in Go,,,go|github actions,,,,FALSE

@@ -1,11 +1,14 @@
+active: 'TRUE'
 company:
-  name: ''
-  url: ''
+  name: Bizagi
+  url: https://bizagi.com
 description: Design and development components and services required to bring "collaboration
   experience" on Bizagi Modeler
 endDate: ''
+license: private
 name: Bizagi Modeler Cloud
 skills:
-- ''
+- c#
+- azure
 startDate: ''
 url: https://model.bizagi.com/

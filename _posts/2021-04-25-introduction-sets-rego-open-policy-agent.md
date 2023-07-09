@@ -135,7 +135,7 @@ english_and_french := english & french ## --> { "🇨🇲 Cameroon", "🇨🇦 C
 
 This intersection is precisely what we are looking to define a policy around the scenario proposed, let’s take a look
 
-![Intersection between user assigned roles and allowed roles list - Venn Diagram](https://qjuanp.dev/assets/2021-04-25-introduction-sets-rego-open-policy-agent/intersection.png)
+![Intersection between user assigned roles and allowed roles list - Venn Diagram](https://qjuanp.dev/assets/posts/2021-04-25-introduction-sets-rego-open-policy-agent/intersection.png)
 
 Let’s say for example that we have part of the content (what ever it is) and that content could be accessible for System Administrators and Publishers, so, the allowed set of roles could look like:
 

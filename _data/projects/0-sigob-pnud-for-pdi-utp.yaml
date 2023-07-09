@@ -1,9 +1,11 @@
+active: 'TRUE'
 company:
   name: Technologica Unversity of Pereira
   url: https://www.utp.edu.co
 description: SIGOB (PNUD System) Goals and outcomes module adaptation for project
   management in accordance to the 2009-2019 UTP strategic plan.
-endDate: 2009-10-1
+endDate: '2009-10-01'
+license: private
 name: SIGOB (PNUD) for PDI-UTP
 skills:
 - asp.net

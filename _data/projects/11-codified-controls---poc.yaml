@@ -1,10 +1,15 @@
+active: 'TRUE'
 company:
   name: Citi
-  url: ''
-description: ''
+  url: https://www.citi.com
+description: PoC to enable policy evaluation in runtime evaluating requests send to
+  a service using nginx (js module) and extending opa
 endDate: ''
+license: private
 name: Codified Controls - PoC
 skills:
-- ''
+- go
+- nginx
+- kubernetes
 startDate: ''
 url: ''

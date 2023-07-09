@@ -30,6 +30,8 @@ class Columns(IntEnum):
     SKILLS = 5
     COMPANY_NAME = 6
     COMPANY_URL = 7
+    LICENSE = 8
+    ACTIVE = 9
 
 class Company:
     def __init__(self, name, url) -> None:
@@ -37,14 +39,16 @@ class Company:
         self.url = url
 
 class Project:
-    def __init__(self, name, url, description, startDate, endDate, skills, company) -> None:
+    def __init__(self, name, url, description, startDate, endDate, skills, license, company, active) -> None:
         self.name = name
         self.url = url
         self.description = description
         self.startDate = startDate
         self.endDate = endDate
         self.skills = self.asArray(skills)
+        self.license = license
         self.company = company
+        self.active = active
     
     def asArray(self, string):
         return string.split('|')
@@ -101,7 +105,9 @@ with open(args.source, newline='') as csvFile:
             row[Columns.STARTDATE.value],
             row[Columns.ENDDATE.value],
             row[Columns.SKILLS.value],
-            company
+            row[Columns.LICENSE.value],
+            company,
+            row[Columns.ACTIVE.value]
             )
         saveAsFile(
             os.path.join(output,project.getFileName(index,'yaml')), 

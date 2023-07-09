@@ -1,13 +1,13 @@
 active: 'TRUE'
 company:
-  name: Bizagi
-  url: https://bizagi.com
+  name: Consultant for Deloitte
+  url: https://deloitte.com
 description: ''
 endDate: ''
 license: private
-name: Bizagi Engine Could
+name: SMS masive sender
 skills:
 - c#
-- azure
+- twilio
 startDate: ''
 url: ''

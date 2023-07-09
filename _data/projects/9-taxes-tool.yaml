@@ -1,13 +1,13 @@
 active: 'TRUE'
 company:
-  name: Bizagi
-  url: https://bizagi.com
+  name: Consultant for PwC
+  url: https://pwc.com
 description: ''
 endDate: ''
 license: private
-name: Bizagi Engine Could
+name: Taxes tool
 skills:
+- reactjs
 - c#
-- azure
 startDate: ''
 url: ''

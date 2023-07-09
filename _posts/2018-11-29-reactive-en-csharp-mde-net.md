@@ -21,8 +21,8 @@ El código que usé esta publicado en el repositorio [https://github.com/qjuanp/
 ## Algunas fotos de ese día
 Todos los creditos a la comunidad [MDE.NET](http://mdedotnet.co)
 
-![Reactive en C# - Foto por Comunidad MDE.NET](/assets/2018-11-29-reactive-en-csharp-mde-net/p1.jpg){:class="img-responsive"}
+![Reactive en C# - Foto por Comunidad MDE.NET](/assets/posts/2018-11-29-reactive-en-csharp-mde-net/p1.jpg){:class="img-responsive"}
 
-![Reactive en C# - Foto por Comunidad MDE.NET](/assets/2018-11-29-reactive-en-csharp-mde-net/p2.jpg){:class="img-responsive"}
+![Reactive en C# - Foto por Comunidad MDE.NET](/assets/posts/2018-11-29-reactive-en-csharp-mde-net/p2.jpg){:class="img-responsive"}
 
-![Reactive en C# - Foto por Comunidad MDE.NET](/assets/2018-11-29-reactive-en-csharp-mde-net/p3.jpg){:class="img-responsive"}
+![Reactive en C# - Foto por Comunidad MDE.NET](/assets/posts/2018-11-29-reactive-en-csharp-mde-net/p3.jpg){:class="img-responsive"}

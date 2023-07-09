@@ -1,0 +1,14 @@
+active: 'FALSE'
+company:
+  name: ''
+  url: ''
+description: html/css experimentaiton showing the day lenght throguh the year in different
+  regions
+endDate: ''
+license: ''
+name: Day lenght
+skills:
+- css
+- geolocation
+startDate: ''
+url: https://github.com/qjuanp/day-length

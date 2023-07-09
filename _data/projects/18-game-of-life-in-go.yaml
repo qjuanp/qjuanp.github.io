@@ -1,0 +1,13 @@
+active: 'FALSE'
+company:
+  name: ''
+  url: ''
+description: Game of life implementation in Go
+endDate: ''
+license: ''
+name: Game of life in Go
+skills:
+- go
+- github actions
+startDate: ''
+url: https://github.com/qjuanp/gameoflife-go

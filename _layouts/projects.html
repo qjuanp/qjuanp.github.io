@@ -16,8 +16,14 @@
             {% assign sortedFiles = site.data.projects | sort:descending %}
             {% for file in sortedFiles %}
             {% assign project = file[1] %}
+            {% if project.active contains 'TRUE' %}
                 <div class="project-card">
-                    <h2><a href="{{ project.url }}" target="_blank">{{ project.name }}</a></h2>
+                    <div class="project-title">
+                        {% if project.license contains 'private' %}
+                        <img src="/assets/icons/padlock-2-color.svg" alt="Comercial software. Source code is not public.">
+                        {% endif %}
+                        <h3><a href="{{ project.url }}" target="_blank">{{ project.name }}</a></h3>
+                    </div>
                     <p>{{ project.description }}</p>
                     <div class="project-tags">
                         {% for skill in project.skills %}
@@ -26,6 +32,7 @@
                       </div>
                     <p><em><a href="{{ project.company.url }}" target="_blank"@ {{ project.company.name }}</a></em></p>
                 </div>
+                {% endif %}
                 {% endfor %}
             </div>
         </div>

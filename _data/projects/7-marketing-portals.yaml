@@ -1,12 +1,14 @@
+active: 'TRUE'
 company:
-  name: Quest
-  url: ''
+  name: Consultant for Quest
+  url: https://quest.com
 description: Implementation of new marketing processes through its public portals
   and internal tools used for identify new prospects and bring information to marketing
   and sales areas.
 endDate: ''
+license: private
 name: Marketing Portals
 skills:
-- ''
+- c#
 startDate: ''
 url: https://www.quest.com/

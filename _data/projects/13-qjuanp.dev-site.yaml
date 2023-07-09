@@ -1,0 +1,16 @@
+active: 'TRUE'
+company:
+  name: ''
+  url: ''
+description: Extended jekyll site to include projects and short description about
+  myself. Used python scripts to genrate content.
+endDate: ''
+license: cc-by-sa-4.0
+name: qjuanp.dev site
+skills:
+- jekyll
+- scss
+- github actions
+- python
+startDate: ''
+url: https://qjuanp.dev

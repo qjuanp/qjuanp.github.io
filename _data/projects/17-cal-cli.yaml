@@ -1,0 +1,12 @@
+active: 'FALSE'
+company:
+  name: ''
+  url: ''
+description: cli tool to manage calendar
+endDate: ''
+license: ''
+name: Cal CLI
+skills:
+- c#
+startDate: ''
+url: https://github.com/qjuanp/c3jpo.cal.cli

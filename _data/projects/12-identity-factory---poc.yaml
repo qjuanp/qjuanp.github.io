@@ -1,10 +1,14 @@
+active: 'TRUE'
 company:
   name: Citi
-  url: ''
-description: ''
+  url: https://www.citi.com
+description: Identity generation based on object metadata
 endDate: ''
+license: private
 name: Identity Factory - PoC
 skills:
-- ''
+- mongo
+- java
+- kubernetes
 startDate: ''
 url: ''

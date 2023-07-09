@@ -1,0 +1,12 @@
+active: 'FALSE'
+company:
+  name: ''
+  url: ''
+description: CLI to execute HTTP requests stored in yaml/json files
+endDate: ''
+license: ''
+name: trequest
+skills:
+- go
+startDate: ''
+url: https://github.com/qjuanp/trequest
