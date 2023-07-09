@@ -38,6 +38,8 @@ jobs:
     steps:
       - name: Generate projects
         run: python ./scripts/projects.py ./scripts/resources/projects.csv -o ./_data/projects -c
+      - name: Check files generated
+        run: echo "Check files generated" && ls ./_data/projects/
   # Build job
   build:
     runs-on: ubuntu-latest
