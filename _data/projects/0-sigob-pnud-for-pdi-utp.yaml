@@ -1,0 +1,13 @@
+!!python/object:__main__.Project
+company: !!python/object:__main__.Company
+  name: Technologica Unversity of Pereira
+  url: https://www.utp.edu.co
+description: SIGOB (PNUD System) Goals and outcomes module adaptation for project
+  management in accordance to the 2009-2019 UTP strategic plan.
+endDate: 2009-10-1
+name: SIGOB (PNUD) for PDI-UTP
+skills:
+- asp.net
+- microsoft sql
+startDate: '2008-06-01'
+url: https://repositorio.utp.edu.co/items/b743e34e-447b-4a0d-afa0-ce46a8ed6d50/full

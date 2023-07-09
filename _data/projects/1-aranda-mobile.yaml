@@ -1,0 +1,15 @@
+!!python/object:__main__.Project
+company: !!python/object:__main__.Company
+  name: Aranda Software
+  url: ''
+description: Mobile application (Android) for tracking device location and device
+  inventory and management
+endDate: '2012-03-01'
+name: Aranda MOBILE
+skills:
+- java
+- android
+- rest service
+- geolocation
+startDate: '2012-02-01'
+url: https://arandasoft.com/en/productos/enterprise-mobility-management/

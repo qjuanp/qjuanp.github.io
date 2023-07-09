@@ -1,0 +1,19 @@
+!!python/object:__main__.Project
+company: !!python/object:__main__.Company
+  name: ''
+  url: ''
+description: Field technician management product allowing field operation visualization|specialists
+  locations and movement|and manual/automatic job scheduling considering different
+  evaluation criteria such as specialist's distance|skills and service agreements
+  level.
+endDate: '2014-08-01'
+name: Aranda FIELD SERVICE
+skills:
+- java
+- android
+- rest service
+- geolocation
+- c#
+- software design
+startDate: '2012-09-01'
+url: https://arandasoft.com/en/productos/field-service/

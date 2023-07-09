@@ -1,0 +1,11 @@
+!!python/object:__main__.Project
+company: !!python/object:__main__.Company
+  name: ''
+  url: ''
+description: ''
+endDate: ''
+name: Bizagi Engine Could
+skills:
+- ''
+startDate: ''
+url: ''

@@ -1,0 +1,14 @@
+!!python/object:__main__.Project
+company: !!python/object:__main__.Company
+  name: ''
+  url: ''
+description: Design and development components and services for Bizagi Accounts (over
+  500K registered accounts) providing Single Sign On authentication across all service
+  in Bizagi.com portal (forum|support|learning|etc)|including the new services in
+  the cloud like Bizagi Modeler Collaboration.
+endDate: ''
+name: Bizagi Accounts
+skills:
+- ''
+startDate: ''
+url: https://accounts.bizagi.com/?l=en

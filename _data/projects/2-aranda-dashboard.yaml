@@ -1,0 +1,13 @@
+!!python/object:__main__.Project
+company: !!python/object:__main__.Company
+  name: Aranda Software
+  url: ''
+description: 'Application oriented to offer business KPIs in "real-time" based on
+  OLTP data of Aranda Products. '
+endDate: '2012-09-01'
+name: Aranda DASHBOARD
+skills:
+- asp.net
+- ''
+startDate: '2012-03-01'
+url: https://arandasoft.com/en/productos/query-manager/

@@ -1,0 +1,12 @@
+!!python/object:__main__.Project
+company: !!python/object:__main__.Company
+  name: ''
+  url: ''
+description: Design and development components and services required to bring "collaboration
+  experience" on Bizagi Modeler
+endDate: ''
+name: Bizagi Modeler Cloud
+skills:
+- ''
+startDate: ''
+url: https://model.bizagi.com/

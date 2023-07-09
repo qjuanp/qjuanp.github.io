@@ -1,0 +1,13 @@
+!!python/object:__main__.Project
+company: !!python/object:__main__.Company
+  name: Quest
+  url: ''
+description: Implementation of new marketing processes through its public portals
+  and internal tools used for identify new prospects and bring information to marketing
+  and sales areas.
+endDate: ''
+name: Marketing Portals
+skills:
+- ''
+startDate: ''
+url: https://www.quest.com/

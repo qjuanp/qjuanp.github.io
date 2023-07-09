@@ -1,0 +1,11 @@
+!!python/object:__main__.Project
+company: !!python/object:__main__.Company
+  name: Citi
+  url: ''
+description: ''
+endDate: ''
+name: Identity Factory - PoC
+skills:
+- ''
+startDate: ''
+url: ''
