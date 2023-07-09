@@ -14,6 +14,12 @@ import yaml
 import os
 import argparse
 from pathlib import Path
+import sys
+
+def noop(self, *args, **kw):
+    pass
+
+yaml.emitter.Emitter.process_tag = noop
 
 class Columns(IntEnum):
     NAME = 0
@@ -99,5 +105,5 @@ with open(args.source, newline='') as csvFile:
             )
         saveAsFile(
             os.path.join(output,project.getFileName(index,'yaml')), 
-            yaml.dump(project)
+            yaml.dump(project, default_flow_style=False)
         )

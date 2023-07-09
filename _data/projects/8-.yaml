@@ -1,5 +1,4 @@
-!!python/object:__main__.Project
-company: !!python/object:__main__.Company
+company:
   name: Deloitte
   url: ''
 description: ''

@@ -1,5 +1,4 @@
-!!python/object:__main__.Project
-company: !!python/object:__main__.Company
+company:
   name: Technologica Unversity of Pereira
   url: https://www.utp.edu.co
 description: SIGOB (PNUD System) Goals and outcomes module adaptation for project
