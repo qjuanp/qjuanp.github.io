@@ -19,7 +19,8 @@
   "homepage": "https://github.com/qjuanp/qjuanp.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "sass": "^1.63.6",
-    "@grimlink/eleventy-plugin-sass": "^1.0.3"
+    "@grimlink/eleventy-plugin-sass": "^1.0.3",
+    "js-yaml": "^4.1.0",
+    "sass": "^1.63.6"
   }
 }

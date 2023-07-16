@@ -1,10 +1,14 @@
+const absoluteUrl = require("./src/filters/abasoluteUrl");
 const eleventySass = require("@grimlink/eleventy-plugin-sass");
 const sass = require('sass');
-const absoluteUrl = require("./src/filters/abasoluteUrl");
+const yaml = require("js-yaml");
 
 module.exports = config => {
   // Custom filters
   config.addNunjucksFilter("absoluteUrl", absoluteUrl);
+  
+  // shortcodes
+  config.addShortcode("year", () => `${new Date().getFullYear()}`);
   
   // sass
   config.addPlugin(eleventySass, { 
@@ -12,6 +16,10 @@ module.exports = config => {
     outputPath: 'css'
   });
 
+  // yaml data support
+  config.addDataExtension("yaml", contents => yaml.load(contents));
+
+  config.addPassthroughCopy({"src/public":"/"});
 
   return {
     dir: {
