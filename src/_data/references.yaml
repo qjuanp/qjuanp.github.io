@@ -1,0 +1,6 @@
+- name: 8bitpix
+  url: https://8bitpix.com/
+  description: Avatar generated with this tool
+- name: klisé by Mahendrata Harpi (@piharpi)
+  url: https://github.com/piharpi/jekyll-klise
+  description: migrated klisé template to 11ty. Special thanks to @piharpi, all html and css is authored by him.
