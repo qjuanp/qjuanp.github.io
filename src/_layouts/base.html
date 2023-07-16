@@ -9,7 +9,7 @@
 
   {% include 'navbar.html' %}
   <div class="wrapper">
-    {# {% include author.html %} #}
+    {% block preSection %}{% endblock %}
     <main aria-label="Content">
     {% block content %}{% endblock %}
     </main>

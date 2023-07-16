@@ -1,4 +1,7 @@
 {% extends './base.html' %}
+{% block preSection %}
+    {% include 'author.html' %}
+{% endblock %}
 {% block content %}
     <article>
         <h1>{{ title }}</h1>
