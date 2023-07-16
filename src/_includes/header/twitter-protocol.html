@@ -1,0 +1,32 @@
+<meta name="twitter:card" content="summary" />
+<meta
+    name="twitter:title"
+    content="{% if page.title %}
+    {{ page.title | escape }} | {{site.author.twitter}}
+    {% else %}
+    {{ site.title | escape }}
+    {% endif %}"
+/>
+<meta
+    name="twitter:url"
+    content="{{
+        page.url  | replace('index.html','') | replace('.html','') | absoluteUrl
+    }}"
+/>
+<meta name="twitter:site" content="@{{ site.author.twitter }}" />
+<meta name="twitter:creator" content="@{{ site.author.twitter }}" />
+<meta
+    name="twitter:description"
+    content="{{
+    page.description
+        | default(site.description)
+        | striptags(true) 
+        | truncate(200)
+        | escape
+    }}"
+/>
+{% if page.image %}
+<meta name="twitter:image" content="{{ page.image | absoluteUrl }}" />
+{% else %}
+<meta name="twitter:image" content="{{ site.image | absoluteUrl }}" />
+{% endif %}

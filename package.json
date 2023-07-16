@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx eleventy --serve",
-    "dry-run": "npx eleventy --serve",
+    "start": "npx eleventy --serve --watch",
+    "dry-run": "npx eleventy --dry-run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
