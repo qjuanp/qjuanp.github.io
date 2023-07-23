@@ -4,7 +4,7 @@ _site
 .jekyll-cache
 .DS_store
 
-scripts/output
+**/scripts/output
 
 ###########
 # NODE JS #
