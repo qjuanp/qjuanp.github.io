@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "Podcast recomendados"
-categories: bookmarks
-tags: [podcasts]
+title: Podcast recomendados
+date: 2022-06-02
+tags: 
+    - podcasts
+    - bookmarks
 ---
 
 He aquí la lista ~~**no pedida**~~ definitiva de podcast para hacer oficio en la casa.

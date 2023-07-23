@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "Recommended podcasts"
-categories: bookmarks
-tags: [podcast]
+title: Recommended podcasts
+date: 2022-06-03
+tags: 
+    - podcast
+    - bookmarks
 ---
 
 Here is the non-requested podcast lists around Software Development.
