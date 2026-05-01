@@ -15,14 +15,15 @@ module.exports = config => {
   
   // sass
   config.addPlugin(eleventySass, { 
-    sass,  
+    sass,
+    includePaths : ["./site/sass"],
     outputPath: 'css'
   });
 
   // yaml data support
   config.addDataExtension("yaml", contents => yaml.load(contents));
 
-  config.addPassthroughCopy({"../site/public":"/"});
+  config.addPassthroughCopy({"site/public":"/"});
 
   // additional plugins
   config.addPlugin(blogPlugin)
